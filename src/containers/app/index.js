@@ -6,7 +6,7 @@ import About from '../about'
 const App = () => (
     <div className="wrap">
       <header>
-        <Link to="/">Home</Link>
+        <Link to="/">Home-test</Link>
         <Link to="/about-us">About</Link>
       </header>
       
