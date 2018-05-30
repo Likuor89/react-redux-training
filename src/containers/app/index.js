@@ -7,7 +7,7 @@ import PortfList from '../portfolios'
 const App = () => (
     <div className="wrap">
       <header>
-        <Link to="/">Home-testostos </Link>
+        <Link to="/">Home</Link>
         <Link to="/about-us">About </Link>
         <Link to="/portfolios">Portfolios</Link>
         
