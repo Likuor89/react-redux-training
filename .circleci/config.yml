@@ -22,7 +22,7 @@ jobs:
       - run: # fix react-scripts
           name: Fix react-scripts
           command: |
-            chmod a+x /usr/src/app/node_modules/.bin/react-scripts
+            chmod a+x node_modules/.bin/react-scripts
       - run: # run tests
           name: Run Test and Coverage
           command: |
