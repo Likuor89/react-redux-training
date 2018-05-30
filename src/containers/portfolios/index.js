@@ -5,8 +5,12 @@ import {Route, Link} from 'react-router-dom'
 
 const portfList = props => (
     <div>
-     portf: {props.portfs.toString()}
-        <Link to="./modules/portfolios"></Link>
+        <h2>Portfs:</h2> 
+        <ul>
+            {props.portfs.map(portf => (
+                <li>{portf.label}</li>
+            ))}
+        </ul>
     </div>
 ) 
 
