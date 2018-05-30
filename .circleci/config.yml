@@ -19,6 +19,10 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
+      - run: # fix react-scripts
+          name: Fix react-scripts
+          command: |
+            chmod a+x /usr/src/app/node_modules/.bin/react-scripts
       - run: # run tests
           name: Run Test and Coverage
           command: |
