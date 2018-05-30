@@ -7,7 +7,22 @@ import {composeWithDevTools} from 'redux-devtools-extension'
 
 export const history = createHistory()
 
-const initialState = {}
+const initialState = {
+//    trades: [
+//        {
+//            quote: 'GAZP',
+//            volume: '200',
+//            price: 142.33,
+//            portfolioId: 2,
+//        },
+//    ],
+//    quotes: [
+//        {
+//            quote: 'GAZP',
+//            price: 138.25,
+//        },
+//    ]
+}
 const enhacers = []
 const middleware =[
     thunk,
